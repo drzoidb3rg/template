@@ -1,0 +1,16 @@
+﻿@using medtech.Views.Models
+@inherits Xipton.Razor.TemplateBase<medtech.Views.Models.InDevMenu>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav nav-pills pull-right">
+                <li class="@(Model == InDevMenu.Home ? "active" : "")" ><a href="/">Home</a></li>
+                <li class="@(Model == InDevMenu.CreateProject ? "active" : "")"><a href="#create-project" role="button" data-toggle="modal">Create Project</a></li>
+                @if (Model == InDevMenu.CreateProject)
+                {
+                    <li><a href="#view-people" role="button" data-toggle="modal">Project Team</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@using Poe.Hypermedia
+@using Poe.Hypermedia.Templates
+@using Poe.Testing.Features.Test.Hypermedia
+@using Poe.Webapi
+@inherits Poe.Webapi.HypermediaViewTemplate<TestHypermediaControl>
+@{
+    Layout = "~/Features/Shared/Layout/_Layout.cshtml";
+    Page.Title = "A page";
+}
+
+<h1>Test Page</h1>
+
+<h2>Custom Form</h2>
+
+@(Model.CustomForm<SomeRandomControl>(Relations.Edit(), 
+    @<form class="form-inline">
+        <div class="control-group">
+            <label class="control-label" for="value">Value</label>
+            @item.ControlsFor(control => control.Value, new {@class = "bob", id = "value"})
+        </div>
+        <div class="control-group">
+            <label class="control-label">Some Number</label>
+            @item.ControlsFor(control => control.SomeNumber)
+        </div>                               
+    </form>
+))

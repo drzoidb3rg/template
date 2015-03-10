@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C05CF410-C9EF-4006-8032-905F76FD98C3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medtech", "src\medtech\medtech.csproj", "{FBDDDE56-E654-45CD-B68D-E8884873663D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medtech.test", "src\medtech.test\medtech.test.csproj", "{BD7E296D-4D08-4B60-9888-3475E3E7162D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDDDE56-E654-45CD-B68D-E8884873663D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDDDE56-E654-45CD-B68D-E8884873663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDDDE56-E654-45CD-B68D-E8884873663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDDDE56-E654-45CD-B68D-E8884873663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7E296D-4D08-4B60-9888-3475E3E7162D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7E296D-4D08-4B60-9888-3475E3E7162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7E296D-4D08-4B60-9888-3475E3E7162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7E296D-4D08-4B60-9888-3475E3E7162D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

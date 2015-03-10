@@ -1,0 +1,24 @@
+source https://www.nuget.org/api/v2
+source http://nuget.nice.org.uk/nuget
+
+nuget Microsoft.AspNet.WebApi.Client 5.2.2
+nuget Microsoft.Data.Edm 5.6.3
+nuget Microsoft.Data.OData 5.6.3
+nuget Microsoft.Data.Services.Client 5.6.3
+nuget Microsoft.WindowsAzure.ConfigurationManager 2.0.3
+nuget Newtonsoft.Json 6.0.4
+nuget NICE.Logging 4.0.58.0
+nuget Paket 0.13.1
+nuget protobuf-net 2.0.0.480
+nuget RabbitMQ.Client 3.3.2
+nuget RavenDB.Client 2.5.2939
+nuget RavenDB.Database 2.5.2939
+nuget RavenDB.Embedded 2.5.2939
+nuget riemann-csharp 1.0.99
+nuget Serilog 1.4.10
+nuget Serilog.Extras.AppSettings 1.4.15
+nuget System.Spatial 5.6.3
+nuget WindowsAzure.Storage 4.3.0
+nuget xunit 1.9.2
+nuget ApprovalTests
+nuget Poe

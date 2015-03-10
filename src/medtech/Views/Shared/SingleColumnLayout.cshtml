@@ -1,0 +1,13 @@
+﻿@inherits Poe.Webapi.HypermediaViewTemplate
+<!DOCTYPE html>
+<html>
+    <head>
+        @RenderPage("_HeadIncludes.cshtml")
+        <title>@Page.Title</title>
+    </head>
+    <body>
+        @RenderBody()
+        @RenderPage("_JavascriptIncludes.cshtml")
+    </body>
+
+</html>
